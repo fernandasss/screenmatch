@@ -1,29 +1,30 @@
-public class Pelicula {
+package com.fernanda.screenmatch.modelos;
 
-    String nombre;
-    int fechaDeLanzamiento;
-    int duracionEnMinutos;
-    boolean incluidoEnElPlan;
-    private double sumaDeLasEvaluaciones;
-    private int totalEvaluaciones;
+import com.fernanda.screenmatch.calculos.Clasificable;
 
-    int getTotalEvaluaciones (){
-        return (totalEvaluaciones);
+public class Pelicula extends Titulo implements Clasificable {
+    private String director;
+
+    public Pelicula(String nombre, int fechaDeLanzamiento) {
+        super(nombre, fechaDeLanzamiento);
     }
 
-    void muestraFichaTecnica (){
-        System.out.println("Mi película es " + nombre);
-        System.out.println("Fue lanzada en " + fechaDeLanzamiento);
-        System.out.println("Tiene una duración de " + duracionEnMinutos);
+    public String getDirector() {
+        return director;
     }
 
-    void evalua (double nota){
-        sumaDeLasEvaluaciones += nota;
-        totalEvaluaciones ++;
+    public void setDirector(String director) {
+        this.director = director;
     }
 
-    double mediaEvaluaciones (){
-        return sumaDeLasEvaluaciones / totalEvaluaciones;
+    @Override
+    public int getClasificacion() {
+        return (int) (mediaEvaluaciones()/2);
+    }
+
+    @Override
+    public String toString() {
+        return "Película: " + this.getNombre() + this.getFechaDeLanzamiento();
     }
 }
 

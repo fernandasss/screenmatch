@@ -1,18 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="654f82cf-036f-4c99-8353-64dc7655083f" name="Changes" comment="" />
+    <list default="true" id="654f82cf-036f-4c99-8353-64dc7655083f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/exception/ErrorEnConversionDeDuracionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/principal/PrincipalConBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/calculos/CalculadoraDeTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/calculos/CalculadoraDeTiempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/calculos/Clasificable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/calculos/Clasificable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/calculos/FiltroRecomendacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/calculos/FiltroRecomendacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fernanda/screenmatch/principal/PrincipalConListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fernanda/screenmatch/principal/PrincipalConListas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fernandasss&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fernandasss/screenmatch.git&quot;,
+    &quot;accountId&quot;: &quot;82350634-d691-4f8f-b585-cc59eeb406d3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2eyuiMkGb6rOPrwujyKEBN6upjj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +59,60 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Principal.executor": "Run",
+    "Application.PrincipalConBusqueda.executor": "Run",
+    "Application.PrincipalConListas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ferna/Downloads/gson-2.10.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.PrincipalConBusqueda">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fernanda.screenmatch.principal.Principal" />
+      <module name="screenmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalConBusqueda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fernanda.screenmatch.principal.PrincipalConBusqueda" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fernanda.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalConListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fernanda.screenmatch.principal.PrincipalConListas" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fernanda.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrincipalConBusqueda" />
+        <item itemvalue="Application.PrincipalConListas" />
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,5 +123,16 @@
       <updated>1712889326055</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
